@@ -120,3 +120,25 @@ header {
   display: block;
   clear: both;	
 }
+
+/* タブレット表示時 */
+@media (max-width: 1024px) {
+    .content-text {
+    font-size: 16px;
+    margin: 0 auto;
+    width:80%; 
+}
+}
+
+/* スマホ表示時 */
+@media (max-width: 599px) {
+    
+    .content-text {
+    font-size: 18px;
+    margin: 0 auto;
+    width:70%;
+    
+}
+    
+}
+
